@@ -7,7 +7,6 @@
 
 ## 사용한 라이브러리, 툴
 - Yolo
-- darknet
 - OpenCV
 
 ## 구현한 기술
