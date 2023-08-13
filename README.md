@@ -22,7 +22,7 @@
 ### lane detection 방법
 1. 원본 영상 읽어오기
 2. 원본 영상에 Grayscale 적용
-3. Gaussian Blur를 이용하여 노이즈 제거
+3. Gaussian Blur를 이용하여 노이즈 완화
 4. Canny Edge Detection으로 이미지의 Edge들을 추출
 5. 원하는 범위의 엣지만 얻어내기 위해 ROI(Region Of Interest) 관심영역 지정
 6. Hough 변환을 이용하여 검출된 영상에서 직선 성분을 추출하여 Lane Detection
